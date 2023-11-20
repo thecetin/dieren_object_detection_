@@ -1,26 +1,37 @@
 # Object Detection and Tracking on Pigs farm
 
-# Project Overview
+## Project Overview
 This project focuses on real-time detection and tracking of pigs, their heads, and tails using the YOLOv8 model in combination with OpenCV and other libraries. Each pig is assigned a unique identification number (ID) for tracking purposes.
 
-# Key Features:
+## Key Features:
 - **Pig, Head, and Tail Detection:** Utilizes YOLOv8 to accurately detect and track pigs, their heads, and tails in real time.
 - **Unique ID Tracking:** Assigns and maintains unique ID numbers to individual pigs for continuous tracking across frames.
 - **RFID Integration:** Integrates with an RFID reader to cross-verify the detected pig's ID with the read RFID data, ensuring consistency and accuracy in tracking.
 
-# Functionality:
+## Functionality:
 Detects and tracks pigs, their heads, and tails using designated class IDs.
 Manages the tracking IDs persistently and updates them when pigs are relocated or lost within the specified region.
 Compares the RFID ID read by the RFID reader with the assigned ID of the tracked pig, head, or tail within a specific location.
-# Usage:
+## Usage:
 The script requires a webcam or video file input to perform real-time pig, head, and tail detection.
 Users can define the ROI and adjust parameters related to tracking thresholds and RFID integration for their specific setup.
 This project serves as an efficient framework for real-time monitoring and tracking of pigs, their heads, and tails within a defined region, integrating RFID verification to ensure accurate identification and tracking.
 
 
-
 ## Installation
-
+There is Jupyter Notebooks that you can see which libraries and installations required to run the project on Google Colab. Also all required files folders are here for run this project on NVIDIA Jetson Nano. Also i will try to write all required libraries below but always may you face with any library problem. If then you should make some search on google :) or for any help mail me please. nlyusufcetin@gmail.com
+  
+ **List of required libraries for python**
+ - !pip install ultralytics
+ - !git clone https://github.com/ifzhang/ByteTrack.git
+  (After installation of ByteTrack, inside the folder there is requirements.txt which should install) !pip3 install -q -r requirements.txt
+- !python3 setup.py -q develop
+- !pip install -q cython_bbox
+- !pip install -q onemetric
+- !pip install pip install -q loguru lap thop
+- !pip install supervision==0.14.0
+- !pip install opencv-python-headless
+- 
 - OpenCV (cv2): For computer vision tasks like video processing and frame manipulation.
 - Installation: pip install opencv-python
 
