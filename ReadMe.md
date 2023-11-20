@@ -21,7 +21,7 @@ This project serves as an efficient framework for real-time monitoring and track
 
 ## Installation
 
-OpenCV (cv2): For computer vision tasks like video processing and frame manipulation.
+-- OpenCV (cv2): For computer vision tasks like video processing and frame manipulation.
 
 Installation: pip install opencv-python
 NumPy: For numerical operations and array handling.
