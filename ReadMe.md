@@ -1,20 +1,18 @@
 # Object Detection and Tracking on Pigs farm
 
-**Project Overview**
-This project implements real-time object detection and tracking using the YOLOv8 model combined with OpenCV and other libraries. The script utilizes computer vision techniques to detect and track objects of interest, pigs within a specified region of interest (ROI).
+# Project Overview
+This project focuses on real-time detection and tracking of pigs, their heads, and tails using the YOLOv8 model in combination with OpenCV and other libraries. Each pig is assigned a unique identification number (ID) for tracking purposes.
 
-Project Overview
-This project focuses on real-time detection and tracking of pigs, their heads, and tails using the YOLOv8 model in combination with OpenCV and other libraries. Each pig, head, and tail is assigned a unique identification number (ID) for tracking purposes.
+# Key Features:
+**Pig, Head, and Tail Detection:** Utilizes YOLOv8 to accurately detect and track pigs, their heads, and tails in real time.
+**Unique ID Tracking:** Assigns and maintains unique ID numbers to individual pigs for continuous tracking across frames.
+**RFID Integration:** Integrates with an RFID reader to cross-verify the detected pig's ID with the read RFID data, ensuring consistency and accuracy in tracking.
 
-Key Features:
-Pig, Head, and Tail Detection: Utilizes YOLOv8 to accurately detect and track pigs, their heads, and tails in real time.
-Unique ID Tracking: Assigns and maintains unique ID numbers to individual pigs for continuous tracking across frames.
-RFID Integration: Integrates with an RFID reader to cross-verify the detected pig's ID with the read RFID data, ensuring consistency and accuracy in tracking.
-Functionality:
+# Functionality:
 Detects and tracks pigs, their heads, and tails using designated class IDs.
 Manages the tracking IDs persistently and updates them when pigs are relocated or lost within the specified region.
 Compares the RFID ID read by the RFID reader with the assigned ID of the tracked pig, head, or tail within a specific location.
-Usage:
+# Usage:
 The script requires a webcam or video file input to perform real-time pig, head, and tail detection.
 Users can define the ROI and adjust parameters related to tracking thresholds and RFID integration for their specific setup.
 This project serves as an efficient framework for real-time monitoring and tracking of pigs, their heads, and tails within a defined region, integrating RFID verification to ensure accurate identification and tracking.
