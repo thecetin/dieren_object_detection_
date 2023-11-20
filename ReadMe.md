@@ -4,7 +4,8 @@
 This project focuses on real-time detection and tracking of pigs, their heads, and tails using the YOLOv8 model in combination with OpenCV and other libraries. Each pig is assigned a unique identification number (ID) for tracking purposes.
 
 # Key Features:
-**Pig, Head, and Tail Detection:** Utilizes YOLOv8 to accurately detect and track pigs, their heads, and tails in real time.
+**Pig, Head, and Tail Detection:** 
+Utilizes YOLOv8 to accurately detect and track pigs, their heads, and tails in real time.
 **Unique ID Tracking:** Assigns and maintains unique ID numbers to individual pigs for continuous tracking across frames.
 **RFID Integration:** Integrates with an RFID reader to cross-verify the detected pig's ID with the read RFID data, ensuring consistency and accuracy in tracking.
 
@@ -18,10 +19,6 @@ Users can define the ROI and adjust parameters related to tracking thresholds an
 This project serves as an efficient framework for real-time monitoring and tracking of pigs, their heads, and tails within a defined region, integrating RFID verification to ensure accurate identification and tracking.
 
 
-## Features
-
-- List the key features of the project
-- Highlight functionalities or capabilities
 
 ## Installation
 
