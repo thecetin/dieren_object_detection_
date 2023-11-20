@@ -1,6 +1,6 @@
 # Object Detection and Tracking on Pigs farm
 
-Project Overview
+**Project Overview**
 This project implements real-time object detection and tracking using the YOLOv8 model combined with OpenCV and other libraries. The script utilizes computer vision techniques to detect and track objects of interest, pigs within a specified region of interest (ROI).
 
 Project Overview
