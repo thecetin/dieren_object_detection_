@@ -21,25 +21,24 @@ This project serves as an efficient framework for real-time monitoring and track
 
 ## Installation
 
--- OpenCV (cv2): For computer vision tasks like video processing and frame manipulation.
+- OpenCV (cv2): For computer vision tasks like video processing and frame manipulation.
+- Installation: pip install opencv-python
 
-Installation: pip install opencv-python
-NumPy: For numerical operations and array handling.
+- NumPy: For numerical operations and array handling.
+- Installation: pip install numpy
 
-Installation: pip install numpy
-Supervision: External library/module used for various geometric operations, video handling, and annotations.
+- Supervision: External library/module used for various geometric operations, video handling, and annotations.
+- Please check the specific installation method or source for the Supervision library you're using. It might not be publicly available or might have specific installation instructions.
 
-Please check the specific installation method or source for the Supervision library you're using. It might not be publicly available or might have specific installation instructions.
-TQDM: For progress bars and monitoring loops.
+- TQDM: For progress bars and monitoring loops.
+- Installation: pip install tqdm
 
-Installation: pip install tqdm
-Yolox: For tracking algorithms.
-
-Check the specific installation instructions for the Yolox library or module you're utilizing.
+- Yolox: For tracking algorithms.
+- Check the specific installation instructions for the Yolox library or module you're utilizing.
 dataclasses: For creating immutable data structures.
+- Included in Python standard library (Python 3.7 and later)
 
-Included in Python standard library (Python 3.7 and later)
-Please note:
+**Please note:**
 
 Some of the modules or libraries might be custom or specific to your project and might not have direct installations through pip.
 Ensure to install the exact versions compatible with your project requirements.
