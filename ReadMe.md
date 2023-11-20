@@ -32,7 +32,6 @@ There is Jupyter Notebooks that you can see which libraries and installations re
 - !pip install pip install -q loguru lap thop
 - !pip install supervision==0.14.0
 - !pip install opencv-python-headless
-- 
 - OpenCV (cv2): For computer vision tasks like video processing and frame manipulation.
 - Installation: pip install opencv-python
 
