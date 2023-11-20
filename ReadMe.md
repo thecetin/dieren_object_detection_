@@ -21,6 +21,7 @@ This project serves as an efficient framework for real-time monitoring and track
 
 ## Installation
 There is Jupyter Notebooks that you can see which libraries and installations required to run the project on Google Colab. Also all required files folders are here for run this project on NVIDIA Jetson Nano. Also i will try to write all required libraries below but always may you face with any library problem. If then you should make some search on google :) or for any help mail me please. nlyusufcetin@gmail.com
+There is already trained file for using pig detection "last.pt". This file has produced on colab with following Yolov8 Jupyter Notebooks train object detection.
   
  **List of required libraries for python**
  - !pip install ultralytics
